@@ -21,6 +21,11 @@ public class Exercise4 {
 		
 		changeName(a, "小夫");
 		addScore(c, 10);
+		
+		Student2 e = new Student2();
+		e.name = "世修";
+		e.score = 99;
+		System.out.println(e.name + " 的成績為 " + e.getGrade());
 	}
 	
 	public static void getGrade(Student s) {
@@ -67,7 +72,7 @@ public class Exercise4 {
 		}
 	}
 	
-	public class Student2 {
+	public static class Student2 {
 		
 		@Getter @Setter
 		private String name;
