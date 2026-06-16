@@ -3,4 +3,12 @@
   <groupId>learning.Hayato</groupId>
   <artifactId>2018intern</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.projectlombok</groupId>
+  		<artifactId>lombok</artifactId>
+  		<optional>true</optional>
+		<version>1.18.46</version>
+  	</dependency>
+  </dependencies>
 </project>
